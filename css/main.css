@@ -1,0 +1,168 @@
+/* ********* */
+/* CSS RESET */
+/* ********* */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ******** */
+/* MAIN CSS */
+/* ******** */
+
+/** {
+	outline: 1px solid red;
+}*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
+}
+
+#header {
+	height: 260px;
+	min-width: 500px;
+	padding-left: 80px;
+	padding-right: 30px;
+	background-color: rgba(52, 152, 219,1.0);
+}
+
+#header h1 {
+	margin-top: 160px;
+	font-family: 'Roboto', sans-serif;
+	width: 400px;
+	font-size: 54px;
+	color: white;
+	display: inline-block;
+}
+
+.rem-btn, .add-btn {
+	display: inline-block;
+	float: right;
+}
+
+.cart-add, .cart-remove, .cart-add-buttonDown, .cart-remove-buttonDown {
+	margin-top: 110px;
+	margin-left: 10px;
+	height: 128px;
+	width: 128px;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+.cart-add-buttonDown, .cart-remove-buttonDown {
+	display: none;
+}
+
+.cart-add {
+	background-image: url('../images/cart-add-icon.png');
+}
+
+.cart-add-buttonDown {
+	background-image: url('../images/cart-add-icon-bw.png');
+}
+
+.cart-remove {
+	background-image: url('../images/cart-remove-icon.png');
+}
+
+.cart-remove-buttonDown {
+	 background-image: url('../images/cart-remove-icon-bw.png');
+}
+
+.instructions {
+	height: 40px;
+	background-color: rgba(236, 240, 241,1.0);
+	padding-top: 25px;
+	padding-bottom: 10px;
+	padding-left: 80px;
+}
+
+.input-box {
+	padding-top: 10px;
+	width: 500px;
+	margin: auto;
+}
+
+#input-box {
+	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#input-box input {
+	width: 570px;
+	height: 45px;
+	font-size: 32px;
+	border: 1px solid #e4e4e4;
+	text-align: center;
+}
+
+.item-list {
+	width: 500px;
+	min-height: 30px;
+	margin: auto;
+}
+
+.item-list li {
+	list-style: none;
+	margin-bottom: 10px;
+	width: 500px;
+	height: 35px;
+	font-size: 24px;
+	border-radius: 3px;
+	border: 1px dashed gray;
+	text-align: center;
+}
+
+.delete {
+	float: right;		
+}
+
+.done {
+	float: right;
+}
